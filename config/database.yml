@@ -12,6 +12,13 @@ default: &default
 development:
   <<: *default
   database: db/development.sqlite3
+ #adapter: mysql2
+ #pool: 5
+ #timeout: 5000
+ #username: "daniiielak"
+ #password: "rubyrails"
+ #database: "surfshop_db_testing"
+ #socket:   "/cloudsql/surfcompany-rubyrails-tudublin:europe-west1:surf-site-ruby-rails-tud"
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -28,5 +35,5 @@ production:
  timeout: 5000
  username: "daniiielak"
  password: "rubyrails"
- database: "surfshop_db"
+ database: "surfshop_db_testing"
  socket:   "/cloudsql/surfcompany-rubyrails-tudublin:europe-west1:surf-site-ruby-rails-tud"
