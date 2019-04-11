@@ -1,11 +1,13 @@
 <!-- Header -->
-  <header class="masthead">
+  <header class="masthead1">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
-        <h1 class="mx-auto my-0 text-uppercase">Welcome to the TU Dublin Surfsite</h1>
+        <br>
+        <h1 class="mx-auto my-0 text-uppercase" style="padding-top: 20px">Welcome to the TU Dublin Surfsite</h1>
+        <br>
         <h2 class="text-white-50 mx-auto mt-2 mb-5">A website that is dedicated to provide the best wave riding experience at TU Dublin.</h2>
         <a href="/users/new" class="btn btn-primary js-scroll-trigger">Become a member now</a>
-      </div>
+     <!-- </div> -->
     </div>
   </header>
 
@@ -19,7 +21,7 @@
             <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
         </div>
       </div>
-      <img src="http://blackrockdigital.github.io/startbootstrap-grayscale/img/ipad.png" class="img-fluid" alt="">
+      <img src="<%= asset_path( 'action-beach-fun-416676.jpg' ) %>" class="img-fluid" alt="">
     </div>
   </section>
 
@@ -30,7 +32,7 @@
       <!-- Featured Project Row -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
         <div class="col-xl-8 col-lg-7">
-          <img class="img-fluid" src="surfsite/app/assets/images/action-beach-fun-416676.jpg" alt="">
+          <img class="img-fluid" src="<%= asset_path( 'action-beach-fun-416676.jpg' ) %>" alt="">
         </div>
         <div class="col-xl-4 col-lg-5">
           <div class="featured-text text-center text-lg-left">
