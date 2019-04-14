@@ -32,7 +32,20 @@ body {
 
 .mx-auto{
     color: #f8f8ff; 
+}
 
+.btn-primary {
+    font-size: 120% !important;
+}
+
+.blur {
+  -webkit-animation: blur 3s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes blur {
+  0% { -webkit-filter: blur(0px); }
+  100% { -webkit-filter: blur(3px); }
 }
 
  // Custom bootstrap variables must be set or imported *before* bootstrap.

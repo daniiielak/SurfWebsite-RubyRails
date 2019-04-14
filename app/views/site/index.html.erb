@@ -1,11 +1,15 @@
+<!-- Page Title Yield -->
+<% @title="Welcome" %>
+
 <!-- Header -->
   <header class="masthead1">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
         <br>
-        <h1 class="mx-auto my-0 text-uppercase" style="padding-top: 20px">Welcome to the TU Dublin Surfsite</h1>
+        <h1 class="mx-auto my-0 text-uppercase" style="padding-top: 20px">Welcome Rails on Waves Surf Shop Website</h1>
         <br>
-        <h2 class="text-white-50 mx-auto mt-2 mb-5">A website that is dedicated to provide the best wave riding experience at TU Dublin.</h2>
+        <h3 class="text-white-50 mx-auto mt-2 mb-5">We are a small surf shop in Dublin City Centre that is passionate about surfing.</h3>
+        <p class="text-white-50 mx-auto mt-2 mb-5" style="font-size: 15px"><i>The sensual, visceral power of the ocean. <br> The energy of connection through your surfboard. <br> The incredible high while you are riding a wave. <br><br></i></p>
         <a href="/users/new" class="btn btn-primary js-scroll-trigger">Become a member now</a>
      <!-- </div> -->
     </div>
@@ -24,6 +28,75 @@
       <img src="<%= asset_path( 'action-beach-fun-416676.jpg' ) %>" class="img-fluid" alt="">
     </div>
   </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section bg-light">
+    <div class="container">
+
+      <!-- Featured Project Row -->
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <div class="col-xl-8 col-lg-7">
+          <img class="img-fluid" src="<%= asset_path( 'beach-enjoyment-fun-1667018.jpg' ) %>" alt="">
+        </div>
+        <div class="col-xl-4 col-lg-5">
+          <div class="featured-text text-center text-lg-left">
+            <h4>Learn about our Family Business</h4>
+            <p class="text-black-50 mb-0">We are amazing!</p>
+            <a href="/users/new" class="btn btn-primary js-scroll-trigger">Learn more</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Featured Project Row -->
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <div class="col-xl-8 col-lg-7">
+          <img class="img-fluid" src="<%= asset_path( 'colorful-colourful-design-757133.jpg' ) %>" alt="">
+        </div>
+        <div class="col-xl-4 col-lg-5">
+          <div class="featured-text text-center text-lg-left">
+            <h4>Browse through our High Quality Surf Products</h4>
+            <p class="text-black-50 mb-0">Our products products are awesome!</p> <br>
+            <a href="/users/new" class="btn btn-primary js-scroll-trigger">Browse now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project One Row -->
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="http://blackrockdigital.github.io/startbootstrap-grayscale/img/demo-image-01.jpg" alt="">
+        </div>
+        <div class="col-lg-6">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                <h4 class="text-white">Misty</h4>
+                <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                <hr class="d-none d-lg-block mb-0 ml-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Two Row -->
+      <div class="row justify-content-center no-gutters">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="http://blackrockdigital.github.io/startbootstrap-grayscale/img/demo-image-02.jpg" alt="">
+        </div>
+        <div class="col-lg-6 order-lg-first">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-right">
+                <h4 class="text-white">Mountains</h4>
+                <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
+                <hr class="d-none d-lg-block mb-0 mr-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
 
   
   <!-- Signup Section -->
