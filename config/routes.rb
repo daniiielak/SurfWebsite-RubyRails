@@ -2,8 +2,8 @@ Rails.application.routes.draw do
   devise_for :users
   resources :users
   get 'site/index'
-  get '/about' => 'about#about' 
-
+  get '/about' => 'about#about'
+  get '/users/new' => 'deivse/registrations#new' 
 
   root 'site#index'
   
