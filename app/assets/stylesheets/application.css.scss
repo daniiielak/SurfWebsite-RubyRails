@@ -79,6 +79,10 @@ h4 .text-white{
   100% { -webkit-filter: blur(3px); }
 }
 
+#mainNav {
+    display:inline-flex !important;
+}
+
  // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
 
