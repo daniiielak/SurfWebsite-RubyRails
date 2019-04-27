@@ -73,3 +73,4 @@ gem 'jquery-rails'
 
 #devise gem
 gem 'devise'
+gem 'devise-secure_password', '~> 1.0.5'
