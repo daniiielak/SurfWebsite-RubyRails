@@ -70,3 +70,6 @@ gem "appengine", "~> 0.4.6"
 #bootstrap gem
 gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails'
+
+#devise gem
+gem 'devise'
