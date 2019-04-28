@@ -1,32 +1,73 @@
 <!-- Page Title Yield -->
 <% @title="Register" %>
 
-<h2>Register</h2>
 
-<%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
-  <%= render "devise/shared/error_messages", resource: resource %>
+<!-- Header -->
+  <header class="registration-masthead">
+    <div class="container d-flex h-100 align-items-center">
+      <div class="mx-auto text-center">
+      <br>
+        <h1 class="mx-auto my-0 text-uppercase" style="padding-top: 20px">Be part of it</h1>
+     </div>
+    </div>
+  </header>
 
-  <div class="field">
-    <%= f.label :email %><br />
-    <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
-  </div>
+  <!-- About Section -->
+  <section id="about" class="about-section text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="mx-auto my-0 text-uppercase">Register for the adventure of a lifetime</h2>
+          <br>
+            </div>
+  </section>
 
-  <div class="field">
-    <%= f.label :password %>
-    <% if @minimum_password_length %>
-    <em>(<%= @minimum_password_length %> characters minimum)</em>
-    <% end %><br />
-    <%= f.password_field :password, autocomplete: "new-password" %>
-  </div>
+<div id="registration-form-main"> 
+    
+    <div class="blue-surrounding-box">
+    <br>
 
-  <div class="field">
-    <%= f.label :password_confirmation %><br />
-    <%= f.password_field :password_confirmation, autocomplete: "new-password" %>
-  </div>
+    <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+    <%= render "devise/shared/error_messages", resource: resource %>
 
-  <div class="actions">
-    <%= f.submit "Sign up" %>
-  </div>
-<% end %>
+    <div class="field registration-email">
+        <%= f.label :email %><br />
+        <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "registration-input"%>
+    </div>
 
-<%= render "devise/shared/links" %>
+    <div class="field registration-password">
+        <%= f.label :password %>
+        <% if @minimum_password_length %>
+        <em>(<%= @minimum_password_length %> characters minimum)</em>
+        <% end %><br />
+        <%= f.password_field :password, autocomplete: "new-password", class: "registration-input" %>
+    </div>
+
+    <div class="field registration-password">
+        <%= f.label :password_confirmation %><br />
+        <%= f.password_field :password_confirmation, autocomplete: "new-password", class: "registration-input" %>
+    </div>
+    <br>
+    <div class="actions">
+        <%= f.submit "Sign up", class: "registration-submit" %>
+    </div>
+    <% end %>
+    <br>
+    <br>
+    <%= render "devise/shared/links" %>
+    <br>
+    <br>
+
+    <h3 class="mx-auto text-center">Sign Up Benefits </h3>
+    <br>
+    <p class="text-white-50 mx-auto mt-2 mb-5" style="font-size: 15px">* Become part of the Rails on Waves family</p>
+    <p class="text-white-50 mx-auto mt-2 mb-5" style="font-size: 15px">* Get informed about the newest product additions</p>
+    <p class="text-white-50 mx-auto mt-2 mb-5" style="font-size: 15px">* Browse through our product catalogue on the website</p>
+    <p class="text-white-50 mx-auto mt-2 mb-5" style="font-size: 15px">* Exclusive promotions and deals</p>
+    <br>
+
+
+    </div>
+</div>
+
+

@@ -12,6 +12,9 @@
  *
  */
 
+
+/*-----------HOMEPAGE------------*/
+
 .masthead1 {
     height: 60rem;
     position: relative;
@@ -29,6 +32,102 @@
 body {
     background: linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(22,22,22,.7) 75%,#161616 100%);
 }
+
+/*-----------REGISTRATION------------*/
+
+.registration-masthead {
+    height: 45%;
+    position: relative;
+    width: 100%;
+    min-height: 35rem;
+    background: linear-gradient(to bottom,rgba(22,22,22,.3) 0%,rgba(22,22,22,.7) 80%,#161616 100%), url(asset_path('backlight-beach-clouds-111085.jpg'));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    display: block;
+    box-sizing: border-box;
+}
+
+.blue-surrounding-box {
+	display: center;
+	text-align: center;
+	background: linear-gradient(to bottom,rgba(201, 189, 53, 0.332) 0%,rgba(22,22,22,.7) 80%,#161616 100%);
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:20px;
+	padding-bottom:30px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+
+.registration-email {
+	background-image: url(../images/email.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+
+.registration-input {
+	color:#3c3c3c;
+	font-family: Arial, sans-serif;
+  	font-weight:500;
+	font-size: 15px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 13px 13px 13px 50px;
+	margin-bottom: 9px;
+	width:60%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+  -moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+
+.registration-input:focus {
+	background: #fff;
+	box-shadow: none;
+	border: 3px solid #333333;
+	color: #333333;
+	outline: none;
+  	padding: 13px 13px 13px 50px;
+}
+
+.registration-submit {
+	outline: none;
+	font-family: Arial, sans-serif;
+	width: 60%;
+	border: #ffffff solid 3px;
+	cursor:pointer;
+	background-color: #333333;
+	color:white;
+	font-size:20px;
+	padding-top:16px;
+	padding-bottom:16px;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+  	font-weight:600;
+  		   -moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+
+.registration-submit:hover {
+	border: #333333 solid 4px;
+	background-color: #fff;
+	color: #164ec9ef;
+		   -moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+
+/*-----------BOOTSTRAP OVERWRITE------------*/
+
 
 .mx-auto{
     color: #f8f8ff; 
