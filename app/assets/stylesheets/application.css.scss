@@ -49,7 +49,7 @@ body {
     box-sizing: border-box;
 }
 
-.blue-surrounding-box {
+.yellow-surrounding-box {
 	display: center;
 	text-align: center;
 	background: linear-gradient(to bottom,rgba(201, 189, 53, 0.332) 0%,rgba(22,22,22,.7) 80%,#161616 100%);
@@ -125,6 +125,35 @@ body {
 		   -moz-border-radius: 7px;
 	-webkit-border-radius: 7px;
 }
+
+/*-----------LOGIN------------*/
+
+.login-masthead {
+    height: 45%;
+    position: relative;
+    width: 100%;
+    min-height: 35rem;
+    background: linear-gradient(to bottom,rgba(22,22,22,.3) 0%,rgba(22,22,22,.7) 80%,#161616 100%), url(asset_path('action-beach-blue-1549196.jpg'));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    display: block;
+    box-sizing: border-box;
+}
+
+.blue-surrounding-box {
+	display: center;
+	text-align: center;
+	background: linear-gradient(to bottom,rgba(5, 112, 207, 0.353) 0%,rgba(22,22,22,.7) 80%,#161616 100%);
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:20px;
+	padding-bottom:30px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+
 
 
 /*-----------BOOTSTRAP OVERWRITE------------*/
