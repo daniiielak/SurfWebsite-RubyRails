@@ -1,2 +1,16 @@
-<h1>Shop#products</h1>
-<p>Find me in app/views/shop/products.html.erb</p>
+<!-- Page Title Yield -->
+<% @title="Products" %>
+
+<!-- About Section -->
+  <section id="about" class="about-section text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="text-white mb-4">A GOOD SURF STARTS WITH A GOOD PRODUCT</h2>
+          <p class="text-white-50">Come explore! <br>Ever since our great grandfather opened the Rails on Waves Surf Shop in 1902, high quality has been the top selection criteria for the products that make it into our shop in Dublin. We are convinced that a good surf starts with a good product, and we're here to make that happen. Browse through our product selection and reach out to us via our <a href="/about">About</a> page, if you have any questions.</p>
+        </div>
+      </div>
+      <img src="<%= asset_path( 'surfboard-image.jpg' ) %>" class="img-fluid" alt="images of surf boards in the shop">
+    </div>
+  </section>
+

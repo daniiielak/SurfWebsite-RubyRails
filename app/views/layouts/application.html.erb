@@ -52,8 +52,15 @@
             <% if user_signed_in? %>
             <li class="nav-item">
                 <br>
+                <%= link_to 'My Profile', shop_products_path %>
+                <br>            
+                </li>
+            <li class="nav-item">
+                <br>
                 <%= link_to 'Sign out', destroy_user_session_path, :method => :delete %>
             </li>
+
+
             <% else %>
               <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="/users/sign_up">Register</a>
