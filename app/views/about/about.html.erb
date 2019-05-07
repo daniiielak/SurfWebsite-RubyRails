@@ -6,12 +6,11 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2 class="text-white mb-4">Built with Bootstrap 4</h2>
-          <p class="text-white-50">Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-            <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
+          <h2 class="text-white mb-4">YOU ARE IN GOOD HANDS</h2>
+          <p class="text-white-50">Nice to meet you! <br>We are the O'Kelly Family and as an old O'Kelly family tradition says, we learn to surf before we learn to walk. Since our great-grandfather opened the Rails on Waves Surf Shop in Dublin in 1902, our business experience and passion for surfing has grown over time. Our loyal customers slowly became part of our extended family and therefore, we're excited that you're here with us today. Surfing is living!</p>
         </div>
       </div>
-      <img src="<%= asset_path( 'action-beach-fun-416676.jpg' ) %>" class="img-fluid" alt="">
+      <img src="<%= asset_path( 'surfgroupphoto.jpg' ) %>" class="img-fluid" alt="">
     </div>
   </section>
 
@@ -19,61 +18,53 @@
   <section id="projects" class="projects-section bg-light">
     <div class="container">
 
-      <!-- Featured Project Row -->
-      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-        <div class="col-xl-8 col-lg-7">
-          <img class="img-fluid" src="<%= asset_path( 'action-beach-fun-416676.jpg' ) %>" alt="">
-        </div>
-        <div class="col-xl-4 col-lg-5">
-          <div class="featured-text text-center text-lg-left">
-            <h4>Shoreline</h4>
-            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
-          </div>
-        </div>
-      </div>
-
       <!-- Project One Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6">
-          <img class="img-fluid" src="http://blackrockdigital.github.io/startbootstrap-grayscale/img/demo-image-01.jpg" alt="">
+          <img class="img-fluid" src="<%= asset_path( 'surfshop1.jpg' ) %>" alt="Image of our surf shop in Dublin">
         </div>
         <div class="col-lg-6">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
-              <div class="project-text w-100 my-auto text-center text-lg-left">
-                <h4 class="text-white">Misty</h4>
-                <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
-                <hr class="d-none d-lg-block mb-0 ml-0">
+              <div class="project-text w-100 my-auto text-center text-lg-left leftboy">
+                <h4 class="text-white">Our Surf Shop</h4>
+                <p class="mb-0 text-white-50">Made out of wood, water and lots of hard work, our little Rails on Waves Surf Shop resides directly in Dublin City Center.</p>
+                <br>
+                 <a href="/products" class="btn btn-primary js-scroll-trigger">Check our Products</a>
+                 <br>
               </div>
             </div>
           </div>
         </div>
       </div>
+
 
       <!-- Project Two Row -->
       <div class="row justify-content-center no-gutters">
         <div class="col-lg-6">
-          <img class="img-fluid" src="http://blackrockdigital.github.io/startbootstrap-grayscale/img/demo-image-02.jpg" alt="">
+          <iframe width="100%" height="500" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=Technological%20University%20Dublin%20-%20City%20Campus%2C%20Aungier%20Street%2C%20Dublin%2C%20Ireland+(Rails%20on%20Waves%20Surf%20Shop%20Dublin)&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/map-my-route/">Plot a route map</a></iframe><br />
         </div>
         <div class="col-lg-6 order-lg-first">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
-              <div class="project-text w-100 my-auto text-center text-lg-right">
-                <h4 class="text-white">Mountains</h4>
-                <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
-                <hr class="d-none d-lg-block mb-0 mr-0">
+              <div class="project-text w-100 my-auto text-center text-lg-right rightboy">
+                <h4 class="text-white">Step in and find out</h4>
+                <p class="mb-0 text-white-50">Use Google Maps to find your shortest route to our Dublin Surf Shop! We are located directly next to the Technological University of Dublin City Center Campus. </p>
+                <br>
+                 <a href="https://maps.google.com/maps?ll=53.33853,-6.266599&z=15&t=m&hl=en&gl=US&mapclient=embed&daddr=Technological%20University%20Dublin%20-%20City%20Campus%20Aungier%20St%20Dublin@53.3385296,-6.266598699999999" class="btn btn-primary js-scroll-trigger" target="_blank">Find your route</a>
+                 <br>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-    </div>
-  </section>
+</section>
 
   <!-- Contact Section -->
   <section class="contact-section bg-black">
     <div class="container">
+          <h3 style="color:white">Contact information</h3>
+          <br>
 
       <div class="row">
 
@@ -83,7 +74,7 @@
               <i class="fas fa-map-marked-alt text-primary mb-2"></i>
               <h4 class="text-uppercase m-0">Address</h4>
               <hr class="my-4">
-              <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+              <div class="small text-black-50">Aungier Street, Dublin, Ireland</div>
             </div>
           </div>
         </div>
@@ -95,7 +86,7 @@
               <h4 class="text-uppercase m-0">Email</h4>
               <hr class="my-4">
               <div class="small text-black-50">
-                <a href="#">hello@yourdomain.com</a>
+                <a href="#">inquiry@railsonwaves.com</a>
               </div>
             </div>
           </div>
@@ -107,23 +98,11 @@
               <i class="fas fa-mobile-alt text-primary mb-2"></i>
               <h4 class="text-uppercase m-0">Phone</h4>
               <hr class="my-4">
-              <div class="small text-black-50">+1 (555) 902-8832</div>
+              <div class="small text-black-50">+353 (01) 402 3000</div>
             </div>
           </div>
         </div>
       </div>
-
-      <div class="social d-flex justify-content-center">
-        <a href="#" class="mx-2">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="#" class="mx-2">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="#" class="mx-2">
-          <i class="fab fa-github"></i>
-        </a>
-      </div>
-
+</div>
     </div>
   </section>
