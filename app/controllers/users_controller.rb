@@ -64,6 +64,16 @@ class UsersController < ApplicationController
       format.json { head :no_content }
     end
   end
+  
+  def signedinuserprofile
+    profile = User.find_by_id(current_user.id)
+    if profile.nil? 
+      redirect_to"/users/sign_up"
+  else
+    @profile = User.find_by_id(current_user.id)
+    redirect_to"/users/#{@profile.id}"
+    end
+  end
 
   private
     # Use callbacks to share common setup or constraints between actions.

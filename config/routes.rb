@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get 'site/index'
   get '/about' => 'about#about'
   get '/users/new' => 'deivse/registrations#new' 
+  get '/signedinuserprofile' => 'users#signedinuserprofile'
 
   root 'site#index'
   

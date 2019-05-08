@@ -9,6 +9,7 @@ class ApplicationController < ActionController::Base
   skip_before_action :verify_authenticity_token, if: -> { controller_name == 'ActionController' && action_name == 'create' }
   skip_before_action :verify_authenticity_token, if: -> { controller_name == 'ActionController' && action_name == 'update' }
   skip_before_action :verify_authenticity_token, if: -> { controller_name == 'users' && action_name == 'destroy' }
+  skip_before_action :verify_authenticity_token, if: -> { controller_name == 'users' && action_name == 'update' }
 
 
 end
