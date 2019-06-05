@@ -1,24 +1,9 @@
-# README
+# Rails on Waves Surf Website (Ruby Rails & GCP)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Objective
+The objective of this project is to develop a web application that showcases full-stack development, while respecting the MVC design pattern. I used the Ruby Rails Framework with Ruby 2.6.3, Bootstrap and Devise, developing and deploying in the Google Cloud Platform, running App Engine and utilising a MySQL Instance Cloud Storage. 
 
-Things you may want to cover:
+Screen of the main page:
+![Image Rails on Waves Website](https://github.com/daniiielak/SurfWebsite-RubyRails/blob/master/app/assets/images/S1.png "Rails on Waves Surfshop - Main Page")
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
